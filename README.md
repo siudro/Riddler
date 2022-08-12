@@ -8,4 +8,4 @@ This repo contains a game where you can answer all the riddles mentioned in the 
 
 ## Play it online
 at https://swish.swi-prolog.org/p/TheBatmanRiddles.swinb
-you can start by pushing the Run! button, make sure play. is written at the -? section before you run it
+you can start by pushing the Run! button, write play. to start the game.
