@@ -1,3 +1,8 @@
+/* prolog riddler game.
+    start with ?- play.     */
+    
+/* riddles and the answers rules */
+
 riddle1(he_lies_still). 
 riddle2(wwwdotrataaladadotcom).
 riddle3(justice).
@@ -11,6 +16,8 @@ riddle10(renewal).
 riddle11(mask).
 riddle12(confusion).
 
+/* riddle me this part,
+contains rules to verify riddles answers*/
                
 playG(A,B,C,D,E,F,G,H,I,J,K,L):-(
  write('if you want to play right, use lower case only, replace space with 
@@ -25,7 +32,6 @@ read(B),
     ( riddle2(B) ->
  (write('Correct!'), nl);(write('wrong,wwwdotrataaladadotcom'))),    
 
-    
 
 nl,
 write('It can be cruel, poetic, or blind.
@@ -57,8 +63,6 @@ read(F),
     ( riddle6(F) ->
  (write('Correct!'), nl);(write('wrong, an orphan'))),
     nl,
-
-
 
 write('See you in hell.'),
 read(G),
@@ -102,8 +106,14 @@ write('I am first a fraud or a trick.
     ( riddle12(L) ->
  (write('Correct!'), nl,!);(write('wrong, confusion')))),
     nl, write('data source: https://screenrant.com/the-batman-movie-riddler-riddle-meanings-explained/')).
-
+   
+   
+   
+   
+/* rule to start the game */
 play:-playG(A,B,C,D,E,F,G,H,I,J,K,L),riddle1(A),
     riddle2(B),riddle3(C),riddle4(D),riddle5(E),riddle6(F),
 riddle7(G),riddle8(H),riddle9(I),riddle10(J),riddle11(K),
     riddle12(L).
+    
+    
