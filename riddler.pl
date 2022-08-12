@@ -32,6 +32,7 @@ read(B),
     ( riddle2(B) ->
  (write('Correct!'), nl);(write('No. No, no, no! it is wwwdotrataaladadotcom'))),    
 
+    
 
 nl,
 write('It can be cruel, poetic, or blind.
@@ -53,7 +54,7 @@ write('Since your justice is so select,
        please tell us, which vermin you are paid to protect?'),
 read(E),
     ( riddle5(E) ->
- (write('Correct!'), nl);(write('Interesting. You're missing the big picture. it is the rat'))),
+ (write('Correct!'), nl);(write('Interesting. You are missing the big picture. it is the rat'))),
     nl,
 
 write('I grew up from a seed, as tough as a weed.
@@ -63,6 +64,8 @@ read(F),
     ( riddle6(F) ->
  (write('Correct!'), nl);(write('No! an orphan'))),
     nl,
+
+
 
 write('See you in hell.'),
 read(G),
@@ -81,7 +84,7 @@ write('Riddle me this: The less of them you have,
        the more one is worth?'),
    read(I),
  ( riddle9(I) ->
- (write('Correct!'), nl);(write('You mean you didn't figure it out? It's a friend!'))),
+ (write('Correct!'), nl);(write('You mean you didnt figure it out? Its a friend'))),
     nl,
 
 write('What was new, is new again. Rebirth.
@@ -89,7 +92,7 @@ write('What was new, is new again. Rebirth.
 
     read(J),
 ( riddle10(J) ->
- (write('Correct!'), nl);(write('Oh, you're really not as smart as I thought you were. I guess I gave you too much credit. It's a renewal'))),
+ (write('Correct!'), nl);(write('Oh, you are really not as smart as I thought you were. I guess I gave you too much credit. Its arenewal'))),
     nl,
 
 write('Fear he who hides behind one.'),
@@ -104,9 +107,9 @@ write('I am first a fraud or a trick.
        That’s up to your misinterpretation.'),
    read(L),
     ( riddle12(L) ->
- (write('yes!'), nl,!);(write('Do I need to show you more for you to understand? it's confusion')))),
+ (write('yes!'), nl,!);(write('Do I need to show you more for you to understand? its confusion')))),
     nl, write('data source: https://screenrant.com/the-batman-movie-riddler-riddle-meanings-explained/')).
-   
+ 
    
    
    
